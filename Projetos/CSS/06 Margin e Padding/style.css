@@ -1,0 +1,26 @@
+
+p{
+    font-size: 10;
+    font-weight: bold;
+}
+
+div{
+    background-color: rgba(red, green, blue, alpha);
+}
+
+.Red{
+
+background-position:
+border: 2px solid red;    
+border-radius: 30px;
+padding: 30px;
+margin: 50px;
+width: 30px;
+height: 30px;
+}
+
+.Green{
+    border: 2px solid rgb(74, 6, 80); 
+    border-radius: 20px;
+   
+}

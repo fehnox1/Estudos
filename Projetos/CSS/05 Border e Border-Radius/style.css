@@ -1,0 +1,13 @@
+.Red{
+ border: 2px solid red;    
+border-radius: 20px;
+   width: 100px;
+   height: 100px;
+}
+
+.Green{
+    border: 2px solid rgb(197, 39, 211); 
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+}
