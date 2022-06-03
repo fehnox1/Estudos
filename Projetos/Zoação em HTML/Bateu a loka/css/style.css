@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
+    color: #ffff;
 }
 header{
     min-height: 9vh;
@@ -76,4 +77,138 @@ main form .password-contairner i {
     top: 35%;
     color: #777;
     cursor: pointer;
+}
+main form .password-contairner #eye {
+    display: none;
+}
+main form .password-infos {
+    width: 90%;
+    margin-top: 3%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+main form .password-infos a {
+    transition: 0.2s ease-in-out;
+}
+
+main form .password-infos a:hover {
+color: #18acfe;
+}
+
+main form button {
+    background-color: #18acfe;
+    width: 90%;
+    height: 50px;
+    border: 0;
+    outline: 0;
+    border-radius: 12px;
+    margin-top: 10%;
+    font-size: 30px;
+    font-weight: 650;
+    cursor: pointer;
+}
+
+main form button:hover{
+    background-color: #ffff;
+    color: #18acfe;
+}
+
+main form .Links-Contairner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+
+}
+
+main form .Links-Contairner span{
+    font-size: 0.8em;
+    font-weight: 600;
+
+}
+main form .Links-Contairner aside {
+    margin-top: 5%;
+    width: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+main form .Links-Contairner aside i{
+    font-size: 1.6em;
+    background-color: #ffff;
+    padding: 8px;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+    color: #ffff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main form .Links-Contairner aside .google{
+    color: #e34133;
+
+}
+main form .Links-Contairner aside .google:hover{
+    background-color: #e34133;
+    color: #fff;
+}
+
+main form .Links-Contairner aside .linkedin{
+    color: #0a66c2;
+
+}
+main form .Links-Contairner aside .linkedin:hover{
+    background-color: #0a66c2;
+    color: #fff;
+    
+
+}main form .Links-Contairner aside .facebook{
+    color: #14a0f9;
+
+}
+main form .Links-Contairner aside .facebook:hover{ 
+    background-color: #14a0f9;
+    color: #fff;
+
+}
+main form footer {
+    width: 100%;
+    margin-top: 10%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+main form footer hr {
+    width: 100%;
+    height: 3px;
+    color: #fff;
+
+}
+main form footer span {
+ 
+    font-weight: 400;
+    font-size: 0.9em;
+    margin-top: 5%;
+
+}
+
+main form footer a {
+    font-weight: 600;
+    transition: 0.2s ease-in-out;
+
+}
+
+main form footer a:hover{
+    color: #18acfe;
 }
